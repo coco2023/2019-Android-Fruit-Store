@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/querydb1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="查询数据记录"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/deleteItemBtn1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="删除城市记录"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/insertdb1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="插入两条记录"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/deleteDB1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="删除数据库"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/createdb1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="创建数据库"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        tools:text="运行" />
+</LinearLayout>

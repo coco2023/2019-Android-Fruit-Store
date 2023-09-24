@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloWorld!</string>
+    <string name="app_name1">我的App</string>
+    <string name="user_name">请输入账号</string>
+    <string name="user_password">请输入密码</string>
+    <string name="text_login">登录</string>
+    <string name="text_quit">退出</string>
+    <string name="text_textview">Hello The Android World!</string>
+    <string name="text_button">I am a button!</string>
+    <string name="hello">Hello!</string>
+</resources>

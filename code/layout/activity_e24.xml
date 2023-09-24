@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".E24Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="501dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="270px"
+            android:layout_height="1320px"
+            android:layout_weight="1"
+            android:background="#F44336"
+            android:text="red" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="270px"
+            android:layout_height="1320px"
+            android:layout_weight="1"
+            android:background="#4CAF50"
+            android:text="green" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="270px"
+            android:layout_height="1320px"
+            android:layout_weight="1"
+            android:background="#2196F3"
+            android:text="blue" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="270px"
+            android:layout_height="1320px"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:text="yellow" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="row one"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="row two"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="row three"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:text="row four"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+</LinearLayout>

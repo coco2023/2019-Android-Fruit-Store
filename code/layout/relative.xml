@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp">
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/button28"
+        android:layout_toRightOf="@id/button27"
+        app:srcCompat="@drawable/picture1" />
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/imageButton"
+        android:layout_toRightOf="@id/imageButton"
+        android:text="右"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imageButton"
+        android:layout_alignLeft="@id/imageButton"
+        android:text="下"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignTop="@id/imageButton"
+        android:text="左"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@id/imageButton"
+        android:text="上"
+        android:textSize="24sp" />
+
+</RelativeLayout>

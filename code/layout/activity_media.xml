@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginLeft="150px">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="780px"
+        android:layout_height="600px"
+        android:src="@drawable/music_logo" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="right"
+        android:text="音乐时长"
+        android:textSize="24sp" />
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="260px"
+            android:layout_height="match_parent"
+            android:src="@drawable/music_play" />
+
+        <ImageButton
+            android:id="@+id/stop"
+            android:layout_width="260px"
+            android:layout_height="match_parent"
+            android:src="@drawable/music_stop" />
+
+        <ImageButton
+            android:id="@+id/quit"
+            android:layout_width="260px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/music_quit" />
+    </LinearLayout>
+
+</LinearLayout>

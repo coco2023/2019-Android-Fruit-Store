@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.helloworld">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TouchActivity"></activity>
+        <activity android:name=".ObAnimatorActivity" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".ImageShowActivity" />
+        <activity android:name=".TwAnimationActivity" />
+        <activity android:name=".E52Activity" />
+        <activity android:name=".E51Activity" />
+        <activity android:name=".E41Activity" />
+        <activity android:name=".E27Activity" />
+        <activity android:name=".E26Activity" />
+        <activity android:name=".E25Activity" />
+        <activity android:name=".E24Activity" />
+        <activity android:name=".E23Activity" />
+        <activity android:name=".E22Activity" />
+        <activity android:name=".E21Activity" />
+        <activity android:name=".E11Activity" />
+        <activity android:name=".E75Activity" />
+        <activity android:name=".E74Activity" />
+        <activity android:name=".E73Activity" />
+        <activity android:name=".E72Activity" />
+        <activity android:name=".E71Activity" />
+        <activity android:name=".DrawActivity" />
+        <activity android:name=".E62Activity" />
+        <activity android:name=".E61Activity" />
+        <activity android:name=".E62aActivity" />
+        <activity android:name=".E61aActivity" />
+        <activity android:name=".MyDatabase" />
+        <activity android:name=".DiaryDB2Activity" />
+        <activity android:name=".DiaryDBActivity" />
+        <activity android:name=".SQLiteActivity" />
+        <activity android:name=".SharedActivity" />
+        <activity android:name=".ExFileActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".JsonActivity" />
+        <activity android:name=".FileActivity" />
+        <activity android:name=".PhoneActivity" />
+        <activity android:name=".MyService" />
+        <activity android:name=".ServiceActivity" />
+        <activity android:name=".MusicService" />
+        <activity android:name=".AlarmManagerActivity" />
+        <activity android:name=".NotificationActivity" />
+        <activity android:name=".BroadcastActivity" />
+        <activity android:name=".E33Activity" />
+        <activity android:name=".E32Activity" />
+        <activity android:name=".E31Activity" />
+        <activity android:name=".SurfaceViewActivity" />
+        <activity android:name=".SDmusicActivity" />
+        <activity android:name=".VideoViewActivity" />
+        <activity android:name=".MediaActivity" />
+        <activity android:name=".ToastActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".LoginActivity" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+        <service
+            android:name=".E52Activity"
+            android:enabled="true" />
+    </application>
+
+</manifest>

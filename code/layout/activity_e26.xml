@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="102.5dp"
+        android:layout_height="510dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:background="#F44336"
+        android:text="red" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="102.5dp"
+        android:layout_height="510dp"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:background="#4CAF50"
+        android:text="green" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="102.5dp"
+        android:layout_height="510dp"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:background="#2196F3"
+        android:text="blue" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="102.5dp"
+        android:layout_height="510dp"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:background="#FFEB3B"
+        android:text="yellow" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="row one"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="4"
+        android:text="row two"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="row three"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="row four"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+</GridLayout>
