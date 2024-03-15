@@ -4,7 +4,9 @@ This Project implemented a **Fruit Management & Sharing System** for fruit farme
 The System's Backend is realize based on Java; the Frontend is based on Anfroid.
 
 # Presentation
-![Project Report](/Project Report.png)
+![Project Report](https://github.com/coco2023/2020-Android-Fruit-Store/blob/main/Project%20Report.png)
+
+**文档：**【[Link](https://github.com/coco2023/2020-Android-Fruit-Store/blob/main/Project%20Proposal%20-%20Android%20Fruit%20App.pdf)】
 
 # System Demonstration Video 
 [Please check the System Demonstration Video on Youtub!](https://www.youtube.com/watch?v=5SyHO-GPm30&list=PLKJC3aN3a3EWu9Mq3e69oGZim4NoJQXbg)
